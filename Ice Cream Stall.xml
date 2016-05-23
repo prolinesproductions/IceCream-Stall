@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod>
+  <ModName>Ice Cream Stall</ModName>
+  <ModDiscription>Adds a cute Icecream stall to your park</ModDiscription>
+  <Objects>
+    <Object>
+      <OBJName>Ice Cream Stall@icecream2</OBJName>
+      <Type>Shop</Type>
+      <inGameName>IceCream Stall</inGameName>
+      <price>150</price>
+      <Shop>
+        <Product>
+          <Model>Ice Cream Stall@GameObject</Model>
+          <Price>1</Price>
+          <Type>consumable</Type>
+          <Name>Ice Cream</Name>
+          <Hand>Right</Hand>
+          <ConsumeAnimation>lick</ConsumeAnimation>
+          <Temprature>cold</Temprature>
+          <Portions>0</Portions>
+          <Ingredients>
+            <Ingredient>
+              <Name>Ice Cream</Name>
+              <Price>1</Price>
+              <Amount>100</Amount>
+              <tweakable>true</tweakable>
+              <Effects>
+                <effect>
+                  <Type>happiness</Type>
+                  <Amount>1</Amount>
+                </effect>
+              </Effects>
+            </Ingredient>
+          </Ingredients>
+        </Product>
+      </Shop>
+      <recolorable>false</recolorable>
+      <shader>Diffuse</shader>
+    </Object>
+    <Object>
+      <OBJName>Ice Cream Stall@GameObject</OBJName>
+      <Type>none</Type>
+      <inGameName>GameObject</inGameName>
+      <price>0</price>
+      <recolorable>false</recolorable>
+      <shader>Diffuse</shader>
+    </Object>
+  </Objects>
+</Mod>

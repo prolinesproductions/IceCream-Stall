@@ -1,0 +1,32 @@
+[16-05-23 23:16:38] Info: Compiling Ice Cream Stall to bin/build-160523231638078.dll...
+[16-05-23 23:16:38] Info: Compiling from `ModSparkLoader.csproj`.
+[16-05-23 23:16:38] Info: Resolved assembly reference `Assembly-CSharp` to `d:/program files (x86)/steam\SteamApps\common\Parkitect\Parkitect_Data\Managed\Assembly-CSharp.dll`
+[16-05-23 23:16:38] Info: IGNORING assembly reference `Depender`
+[16-05-23 23:16:38] Info: Resolved assembly reference `System` to `System.dll`
+[16-05-23 23:16:38] Info: Resolved assembly reference `System.Core` to `System.Core.dll`
+[16-05-23 23:16:38] Info: Resolved assembly reference `System.Data` to `System.Data.dll`
+[16-05-23 23:16:38] Info: Resolved assembly reference `System.Data.DataSetExtensions` to `System.Data.DataSetExtensions.dll`
+[16-05-23 23:16:38] Info: Resolved assembly reference `System.Xml` to `System.Xml.dll`
+[16-05-23 23:16:38] Info: Resolved assembly reference `System.Xml.Linq` to `System.Xml.Linq.dll`
+[16-05-23 23:16:38] Info: Resolved assembly reference `UnityEngine` to `d:/program files (x86)/steam\SteamApps\common\Parkitect\Parkitect_Data\Managed\UnityEngine.dll`
+[16-05-23 23:16:38] Info: Resolved assembly reference `UnityEngine.UI` to `d:/program files (x86)/steam\SteamApps\common\Parkitect\Parkitect_Data\Managed\UnityEngine.UI.dll`
+[16-05-23 23:16:38] Info: Source files: ModSparkLoader\FlatRideLoader.cs, ModSparkLoader\Main.cs, ModSparkLoader\ModLoader.cs from `C:\Users\liam\Documents\Parkitect\pnmods\Ice Cream Stall`.
+[16-05-23 23:16:38] Info: Compile using compiler version v3.5.
+[16-05-23 23:10:42] Info: Loaded build-160523231034922, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-05-23 23:10:42] Info: Sucessfully registered Custom_Scenery.Main to the mod manager.
+[16-05-23 23:12:02] Info: Loaded build-160523231155910, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-05-23 23:12:02] Info: Sucessfully registered Custom_Scenery.Main to the mod manager.
+[16-05-23 23:13:04] Info: Loaded build-160523231255411, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-05-23 23:13:04] Info: Sucessfully registered Custom_Scenery.Main to the mod manager.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at ModLoader.LoadScenery () [0x00000] in <filename unknown>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at ModLoader.LoadScenery () [0x00000] in <filename unknown>:0 
+[16-05-23 23:15:43] Info: Loaded build-160523231538754, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-05-23 23:15:43] Info: Sucessfully registered Custom_Scenery.Main to the mod manager.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at ModLoader.LoadScenery () [0x00000] in <filename unknown>:0 
+[16-05-23 23:16:44] Info: Loaded build-160523231638078, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-05-23 23:16:44] Info: Sucessfully registered Custom_Scenery.Main to the mod manager.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at ModLoader.LoadScenery () [0x00000] in <filename unknown>:0 
